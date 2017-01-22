@@ -1364,6 +1364,10 @@ Instead, edit gulp/templates/sprite :) */
     font-size: 1rem;
     padding: 12px 0;
   }
+
+  .primary-nav a.is-current-link {
+    color: #FABB69;
+  }
 }
 
 @media (min-width: 800px) {
