@@ -1,9 +1,13 @@
 /* Don't edit modules/_sprite DIRECTLY.
-It's generate automatically by Gulp.
+It's generated automatically by Gulp.
 Instead, edit gulp/templates/sprite :) */
 
     .icon {
       background-image: url('/assets/images/sprites/sprite-8eb89099.svg');
+    }
+
+    .no-svg .icon {
+      background-image: url('/assets/images/sprites/sprite-8eb89099.png');
     }
 
   .icon--clear-view-escapes {
