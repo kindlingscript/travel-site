@@ -71,8 +71,8 @@
 	var mobileMenu = new _mobileMenu2.default();
 	new _revealOnScroll2.default((0, _jquery2.default)('.feature-item'), "85%");
 	new _revealOnScroll2.default((0, _jquery2.default)('.testimonial'), "60%");
-	var stickyHeader = new _stickyHeader2.default();
 	var modal = new _modal2.default();
+	var stickyHeader = new _stickyHeader2.default();
 
 /***/ },
 /* 1 */
@@ -11205,7 +11205,6 @@
 	  function StickyHeader() {
 	    _classCallCheck(this, StickyHeader);
 
-
 	    this.lazyImages = (0, _jquery2.default)('.lazyload');
 	    this.siteHeader = (0, _jquery2.default)('.site-header');
 	    this.headerTriggerElement = (0, _jquery2.default)('.large-hero__title');
@@ -11225,7 +11224,6 @@
 	      });
 	    }
 	  }, {
-
 	    key: 'addSmoothScrolling',
 	    value: function addSmoothScrolling() {
 	      this.headerLinks.smoothScroll();
